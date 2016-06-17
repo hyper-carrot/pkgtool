@@ -1,16 +1,18 @@
 // Show the dependency structure of specified package
-package main // import "hypermind.cn/pkgtool/cmd/pds"
+package main // import "gophergo.org/p/pkgtool/cmd/pds"
 
 import (
-	"basic/prof"
 	"bytes"
 	"errors"
 	"flag"
 	"fmt"
-	"hypermind.cn/pkgtool"
 	"os"
 	"runtime/debug"
 	"strings"
+
+	"gophergo.org/p/pkgtool/prof"
+
+	"gophergo.org/p/pkgtool"
 )
 
 const (

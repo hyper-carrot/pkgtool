@@ -1,5 +1,5 @@
 // Show the specified directory structure
-package main // import "hypermind.cn/pkgtool/cmd/ds"
+package main // import "gophergo.org/p/pkgtool/cmd/ds"
 
 import (
 	"flag"

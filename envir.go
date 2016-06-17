@@ -1,4 +1,4 @@
-package pkgtool // import "hypermind.cn/pkgtool"
+package pkgtool // import "gophergo.org/p/pkgtool"
 
 import (
 	"os"
